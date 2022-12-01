@@ -1,0 +1,298 @@
+a {
+  color: var(--primary-color);
+}
+body {
+  text-align: center;
+  background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/px916800-image-kwvut5jz.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=456b746a413848745269e0226a1d3108");
+  background-attachment: fixed;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  color: white;
+}
+h2 {
+  line-height: 1;
+  padding: 1.5rem 0;
+  color: white;
+}
+hr {
+  border-style: none;
+  border-top: solid;
+  border-width: 10%;
+  display: block;
+  position: relative;
+  border-color: black;
+  margin: 100px auto;
+}
+/* buttons */
+.btn {
+  padding: 5px;
+}
+
+.container-fluid {
+  padding: 3rem 0 0 0;
+  text-align: center;
+}
+.download-resume {
+  padding: 10px;
+}
+.btn-contact {
+  display: inline-block;
+  position: absolute;
+}
+/* Intro message */
+.intro {
+  padding: 10%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Navbar */
+.navbar {
+  padding-bottom: 2.5rem;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 3rem;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+/* Bottom section */
+#bottom-section {
+  position: inherit;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem;
+  animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  -moz-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* download resume */
+.cta {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+  animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  -moz-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Icons */
+.fa-hurricane {
+  color: white;
+}
+
+.fa-hurricane:hover {
+  color: rgb(23, 23, 198);
+}
+.social-logos {
+  padding-left: 1rem;
+}
+
+/* experience page */
+/* pictures */
+.atcp-picture {
+  width: 30%;
+  float: left;
+  height: 30%;
+  padding: 1rem;
+  margin-right: 5px;
+}
+.qa-picture {
+  width: 25%;
+  float: right;
+  height: 30%;
+  padding: 1rem;
+  margin-left: 10px;
+}
+.lodige-picture {
+  padding: 20px 0px;
+}
+.lodige-picture2 {
+  float: right;
+  width: 30%;
+  height: 400px;
+  padding: 1rem;
+}
+.test-site {
+  padding-bottom: 5%;
+}
+.test-site-pics {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  height: 30%;
+  margin-left: 10px;
+}
+.past-exp {
+  display: inline-block;
+}
+
+.exp-description {
+  color: black;
+  text-align: justify;
+  padding: 1.5rem;
+  line-height: 1.5;
+}
+.cta-exp {
+  color: black;
+  text-align: center;
+  padding-top: 250px;
+  display: block;
+  position: relative;
+}
+#experiences {
+  background-color: white;
+  margin-bottom: 5%;
+  padding: 5%;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}

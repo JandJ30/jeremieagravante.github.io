@@ -1,0 +1,158 @@
+a {
+  color: var(--primary-color);
+}
+body {
+  text-align: center;
+  background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/px916800-image-kwvut5jz.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=456b746a413848745269e0226a1d3108");
+  background-attachment: fixed;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  color: white;
+}
+h2 {
+  line-height: 1;
+  padding: 1.5rem 0;
+  color: white;
+}
+hr {
+  border-style: none;
+  border-top: solid;
+  border-width: 10%;
+  display: block;
+  position: relative;
+  border-color: black;
+  margin: 100px auto;
+}
+p {
+  color: white;
+}
+/* buttons */
+.btn {
+  padding: 5px;
+}
+
+.container-fluid {
+  padding: 3rem 0 0 0;
+  text-align: center;
+}
+.download-resume {
+  padding: 10px;
+}
+.btn-contact {
+  display: inline-block;
+  position: absolute;
+}
+.intro {
+  padding: 0 15%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+/* Navbar */
+.navbar {
+  padding-bottom: 2.5rem;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 3rem;
+}
+
+.nav-item {
+  padding: 0 30px;
+}
+
+/* carousel */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 150px;
+  width: 150px;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 40px;
+  color: black;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 40px;
+  color: black;
+}
+
+/* Backgrounds */
+.backvideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  object-fit: fill;
+}
+
+/* Bottom section */
+#bottom-section {
+  position: inherit;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem;
+}
+.cta {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.social-logos {
+  padding-left: 1rem;
+}
+/* skills page */
+#skills {
+  background-color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+}
+/* carousel */
+.carousel-inner {
+  height: 600px;
+}
+
+.skill-desc {
+  color: black;
+  text-align: justify;
+  margin-left: 20px;
+  line-height: 1.5rem;
+}
+.skill-name {
+  margin: 1rem 0;
+  padding: 0.75rem;
+  color: black;
+}
+/* fullstack dev skills */
+.frontend_tools {
+  width: 20%;
+  height: 20%;
+  padding: 1rem 0;
+  margin-left: 20px;
+  float: left;
+}
+.backend_tools {
+  float: right;
+}
+/* software testing */
+.testing_tools {
+  width: 15%;
+  height: 15%;
+  padding: 2rem 2rem;
+  margin-left: 20px;
+  float: left;
+}
