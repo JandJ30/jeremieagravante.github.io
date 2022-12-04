@@ -99,6 +99,11 @@ hr {
   }
 }
 /* Navbar */
+
+.navbar-toggler-icon{
+  width: 15px !important;
+  height: 15px !important;
+}
 .navbar {
   padding-bottom: 2.5rem;
 }
@@ -295,4 +300,37 @@ hr {
   color: black;
   font-family: "Montserrat", sans-serif;
   position: relative;
+}
+
+  /* At media queries for other screens */
+  @media only screen and (max-width: 480px) {
+  
+  .exp-description{
+    font-size: 1rem;
+  }
+
+  .past-exp {
+    padding: 50px;
+  }
+
+
+  .lodige-picture{
+    width: 50%;
+    height: auto;
+  }
+
+  .lodige-picture2{
+    display: none;
+   }
+
+  .atcp-picture .qa-picture{
+    max-width: 60%;
+    height: auto;
+  }
+
+  hr{
+    display: none;
+  }
+
+ 
 }
