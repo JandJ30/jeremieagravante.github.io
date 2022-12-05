@@ -134,6 +134,11 @@ p {
   padding: 0.75rem;
   color: white;
 }
+
+.skill-desc .skill-desc img{
+  animation-duration: 5s;
+}
+
 /* fullstack dev skills */
 .frontend_tools {
   width: 20%;
