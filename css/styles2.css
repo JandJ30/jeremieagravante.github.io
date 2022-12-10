@@ -126,7 +126,7 @@ p {
   color: white;
   text-align: justify;
   margin-left: 20px;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 .skill-name {
   text-align: center;
@@ -135,8 +135,8 @@ p {
   color: white;
 }
 
-.skill-desc .skill-desc img{
-  animation-duration: 5s;
+.skill-desc img{
+  animation-duration: 10s;
 }
 
 /* fullstack dev skills */
@@ -170,12 +170,13 @@ p {
 
   #skills{
     text-align: unset;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .skill-desc{
-    margin: 0px;
-    text-align: unset;
+    padding-left: 0;
+    word-spacing: 1px;
+    line-height: 2;
   }
 
   .carousel-inner {
