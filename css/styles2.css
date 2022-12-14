@@ -177,6 +177,7 @@ p {
     padding-left: 0;
     word-spacing: 1px;
     line-height: 2;
+    font-size: 1em;
   }
 
   .carousel-inner {
